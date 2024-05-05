@@ -1,0 +1,2 @@
+$tasks = Task::paginate(5);
+return view('tasks.index', ['tasks' => $tasks]);<?php /**PATH C:\Users\CARNIVAL\OneDrive\Desktop\taskManager\firstApp\TaskManager\resources\views/tasks/index.blade.php ENDPATH**/ ?>
